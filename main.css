@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+
 html,
-body {
+body, * {
   margin: 0;
   padding: 0;
-  }
+}
 
 body{
-
-    font-family: Roboto Condensed;
+    
+    font-family: Roboto;
   font-size: 10px;
   line-height: 3.5em;
   font-weight:  300;
@@ -15,13 +16,16 @@ body{
   
 }
 
+
 h1{
+    font-family: Roboto Condensed;
     font-size: 9em;
     text-align: center;
     text-transform: uppercase;
 }
 
 h2{
+    font-family: Roboto Condensed;
     font-size: 5em;
     text-align: center;
     text-transform: uppercase;
@@ -30,18 +34,21 @@ h2{
 }
 
 h3{
-    font-size: 1.5em;
+    font-family: Roboto Condensed;
+    font-size: 4.2em;
     text-align: center;
     line-height: 1em;
 }
 
 h4{
+    font-family: Roboto Condensed;
     font-size: 1.5em;
     letter-spacing: 0.4px;
     line-height: 1em;
 }
 
 h5{
+    font-family: Roboto Condensed;
     font-size: 1.2em;
     line-height: 1em;
 }
