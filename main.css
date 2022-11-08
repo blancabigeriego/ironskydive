@@ -15,17 +15,24 @@ body{
  
   
 }
-
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: Roboto Condensed;
+}
 
 h1{
-    font-family: Roboto Condensed;
+   
     font-size: 9em;
     text-align: center;
     text-transform: uppercase;
 }
 
 h2{
-    font-family: Roboto Condensed;
+    
     font-size: 5em;
     text-align: center;
     text-transform: uppercase;
@@ -34,21 +41,21 @@ h2{
 }
 
 h3{
-    font-family: Roboto Condensed;
+    
     font-size: 4.2em;
     text-align: center;
     line-height: 1em;
 }
 
 h4{
-    font-family: Roboto Condensed;
+    
     font-size: 1.5em;
     letter-spacing: 0.4px;
     line-height: 1em;
 }
 
 h5{
-    font-family: Roboto Condensed;
+    
     font-size: 1.2em;
     line-height: 1em;
 }
@@ -65,8 +72,8 @@ h5{
 
 .header{
     background-image: url("https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironhack-skydive-background.jpg");
-    position: 0 0;
-    size: cover;
+    background-position: 0 0;
+    background-size: cover;
     background-repeat: no-repeat;
     height: 650px;
 }

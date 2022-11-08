@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Lato+Condensed:700|Lato:100,300,700');
+html,
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+*{
+    font-family: Lato;
+    
+}
+
+
+h1{
+    font-size: 7em;
+    text-align: center;
+    text-transform: capitalize;
+}
+h2{
+    font-size: 4.5em;
+    text-align: center;
+    text-transform: uppercase; 
+    color: rgb(232, 163, 219);
+    text-shadow: #010819 4px -10px 9px;
+}
+h3{
+    font-size: 4em;
+    text-align: center;
+    text-transform: capitalize;
+}
+h4{
+    font-size: 1.5em;
+    letter-spacing: 0.4px;
+    line-height: 1em;
+}
+h5{
+    font-size: 1.2em;
+    line-height: 1em;
+}
+
+.nav-bar{
+    background-color: rgb(232, 163, 219);
+    
+}
+.nav-bar ul{
+    list-style: none;
+}
+.nav-bar a{
+    color:rgb(181, 1, 148);
+    
+    text-decoration: dotted;
+    font-size: 2.5em;
+}
+
+.header{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnRWyaZ2tZfdGP5kW2M8A625aEQ-Odm7VMaA&usqp=CAU");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+
+}
+
+.quote{
+    font-size: 2.5em;
+}
+
+.dark-background{
+    background-color: rgb(76, 3, 63);
+    color: rgb(232, 163, 219);
+
+}
+
+.text{
+    font-size: 2em;
+    font-weight: 300;
+    text-align: center;
+}
+
+.link-btn{
+    background-color: rgb(239, 255, 118);
+    color:blueviolet;
+    font-size: 2em;
+    letter-spacing: 0.5px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bolder;
+    border-radius: 8px;
+
+}
+
+.service-box{
+    font-size: 1.7em;
+    text-align: center;
+    color: rgb(50,50,50)
+}
+
+.service-box img{
+    width: 125px;
+}
+
+#team .section-text{
+    font-size: 1.5em;
+    font-weight: 600;
+
+}
+
+#team .member-name{
+    font-size: 1.25em;
+    color: rgb(181, 1, 148);
+}
+
+#team img{
+    width: 450px;
+    height: 280px;
+    border-radius: 600px;
+}
+
+.footer{
+    text-align: center;
+    font-size: 2em;
+}
+.address{
+    font-style: italic;
+    font-size: 0.75em;
+    color:rgb(239, 255, 118)
+
+}
+
+.footer a{
+    color:rgb(239, 255, 118);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.9em;
+    
+}
+
+.footer ul{
+    list-style: none;
+}
+
+
+
+
+
