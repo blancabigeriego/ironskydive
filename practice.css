@@ -15,6 +15,7 @@ h1{
     font-size: 7em;
     text-align: center;
     text-transform: capitalize;
+    margin: 0px;
 }
 h2{
     font-size: 4.5em;
@@ -27,6 +28,7 @@ h3{
     font-size: 4em;
     text-align: center;
     text-transform: capitalize;
+    margin: 0px;
 }
 h4{
     font-size: 1.5em;
@@ -40,6 +42,8 @@ h5{
 
 .nav-bar{
     background-color: rgb(232, 163, 219);
+    margin: 0px;
+    border: 0px;
     
 }
 .nav-bar ul{
@@ -123,7 +127,8 @@ h5{
 .address{
     font-style: italic;
     font-size: 0.75em;
-    color:rgb(239, 255, 118)
+    color:rgb(239, 255, 118);
+    line-height: 28px;
 
 }
 
@@ -132,6 +137,7 @@ h5{
     text-decoration: none;
     font-weight: 600;
     font-size: 0.9em;
+    padding: 15px;
     
 }
 
